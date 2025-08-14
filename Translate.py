@@ -170,10 +170,10 @@ def pipeline(file, src_lang_label, tgt_lang_label, progress=gr.Progress()) -> Tu
 # -----------------------------
 # Gradio UI
 # -----------------------------
-title = "IndicTrans2: Indic ↔ Indic Translator"
+title = "Spider『X』(T2TT) MT Indic_Trans-2 1B Model - 1.0"
 description = (
-    "Upload a .txt file, choose source and target Indic languages, "
-    "and download the translation. Uses AI4Bharat's IndicTrans2 1B model."
+    "Upload a .txt file, choose source and target Indian languages, "
+    "and download the translation."
 )
 
 with gr.Blocks() as demo:
@@ -193,3 +193,4 @@ with gr.Blocks() as demo:
 
 if __name__ == "__main__":
     demo.launch()
+
