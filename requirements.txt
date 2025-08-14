@@ -1,0 +1,13 @@
+git+https://github.com/AI4Bharat/IndicTrans2.git
+torchaudio
+gradio
+torch
+torchvision
+transformers
+indictranstoolkit
+openai-whisper
+sentencepiece
+sacremoses
+nltk
+accelerate
+indic-nlp-library
