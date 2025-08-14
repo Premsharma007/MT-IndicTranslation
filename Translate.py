@@ -185,7 +185,7 @@ with gr.Blocks() as demo:
         src_dd = gr.Dropdown(choices=list(LANG_CODE_MAP.keys()), value="Tamil", label="Source Language")
         tgt_dd = gr.Dropdown(choices=list(LANG_CODE_MAP.keys()), value="Hindi", label="Target Language")
 
-    translate_btn = gr.Button("Translate")
+    translate_btn = gr.Button("Translate", variant="primary")
     output_text = gr.Textbox(label="Translated preview", lines=12)
     file_out = gr.File(label="Download translated .txt")
 
@@ -193,4 +193,5 @@ with gr.Blocks() as demo:
 
 if __name__ == "__main__":
     demo.launch()
+
 
